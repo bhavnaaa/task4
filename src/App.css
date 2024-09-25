@@ -1,0 +1,51 @@
+/* Apply a global font and reset some styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.MuiDataGrid-root {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Style the headers */
+.MuiDataGrid-columnHeaders {
+  background-color: #1976d2; /* Light blue */
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Customize hover effects for rows */
+.MuiDataGrid-row:hover {
+  background-color: #e3f2fd; /* Light hover background */
+  cursor: pointer;
+}
+
+/* Customize checkboxes padding */
+.MuiDataGrid-cellCheckbox {
+  padding-left: 10px;
+}
+
+/* Footer adjustment */
+.MuiDataGrid-footerContainer {
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+/* Customize cells */
+.MuiDataGrid-cell {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+/* Bold for customer name */
+.MuiDataGrid-cell--withRenderer {
+  font-weight: bold;
+}
